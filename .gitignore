@@ -1,0 +1,50 @@
+# Ignorar el entorno virtual
+venv/
+env/
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de configuración del entorno
+*.env
+*.venv
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
+
+# Ignorar dependencias generadas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar archivos de logs
+logs/
+*.log
+
+# Ignorar configuraciones de IDE y editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar archivos de base de datos SQLite (si se usa)
+*.sqlite3
+*.db
+
+# Ignorar archivos de depuración
+debug.log
+.DS_Store
+
+# Ignorar archivos generados por cobertura de pruebas
+.coverage
+htmlcov/
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
